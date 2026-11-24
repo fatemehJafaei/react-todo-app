@@ -27,8 +27,6 @@ function validate(values) {
   return errors;
 }
 
-// یک DateObject ذخیره‌شده به شکل YYYY-MM-DD میلادی را
-// بدون تبدیل timezone به DateObject تبدیل می‌کند.
 function getPickerValue(dateString) {
   if (!dateString) return "";
 
